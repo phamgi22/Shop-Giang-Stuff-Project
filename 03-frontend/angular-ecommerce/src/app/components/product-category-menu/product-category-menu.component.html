@@ -1,0 +1,12 @@
+<div class="menu-sidebar-content js-scrollbar1">
+    <nav class="navbar-sidebar">
+        <ul class="list-unstyled navbar-list">
+            <!--for each category, display the categoryName based on the id rendered from JSON (category/id)-->
+            <li *ngFor="let productCategory of productCategories"> 
+                <a routerLink="/category/{{ productCategory.id }}" routerLinkActive="active-link">
+                    {{ productCategory.categoryName }}
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div>
