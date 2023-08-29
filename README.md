@@ -1,2 +1,0 @@
-
-# Shop-Giang-Stuff-Project
